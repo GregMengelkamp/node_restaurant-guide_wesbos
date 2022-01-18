@@ -77,7 +77,6 @@ app.use(errorHandlers.flashValidationErrors);
 
 // Otherwise this was a really bad error we didn't expect! Shoot eh
 if (app.get("env") === "development") {
-  console.log(app.get("env"));
   /* Development Error Handler - Prints stack trace */
   app.use(errorHandlers.developmentErrors);
 }

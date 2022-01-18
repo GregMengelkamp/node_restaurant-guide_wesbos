@@ -1,9 +1,3 @@
-node_modules/
-.DS_Store
-*.log
-.idea
-dist/
-haters/
+node_modules
 variables.env
-variables.env.now
 .vscode
